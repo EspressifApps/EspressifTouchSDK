@@ -156,7 +156,7 @@
 
 /**
  * set whether the router support IPv6
- * @param isIPv4Supported whether the router support IPv6
+ * @param isIPv6Supported whether the router support IPv6
  */
 - (void) setIsIPv6Supported:(BOOL) isIPv6Supported;
 
