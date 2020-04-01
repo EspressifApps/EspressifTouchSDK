@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "EspressifTouchSDK"
   spec.version      = "1.0.2"
-  spec.summary      = "EspressifTouch SDK v1.0.2"
+  spec.summary      = "EspressifTouch SDK v1.0.2, https://github.com/EspressifApps/EspressifTouchSDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-			Espressiftouch is one way for iPhone to tell the connected Router's Ssid, Password and etc. to make IOT devices to connect to the same Router. Espressiftouch is developed and maintained by Espressifressif Corp.
+			Esptouch is one way for iPhone to tell the connected Router's Ssid, Password and etc. to make IOT devices to connect to the same Router. Esptouch is developed and maintained by Espressif Corp.
                    DESC
 
   spec.homepage     = "https://github.com/EspressifApps/EspressifTouchSDK"
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "EspressifTouch/*.h","EspressifTouch/udp/*.{h,m}","EspressifTouch/protocol/*.{h,m}","EspressifTouch/ESPUtils/*.{h,m}","EspressifTouch/task/*.{h,m}"
+  spec.source_files  = "EspTouch/*.h","EspTouch/udp/*.{h,m}","EspTouch/protocol/*.{h,m}","EspTouch/ESPUtils/*.{h,m}","EspTouch/task/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
