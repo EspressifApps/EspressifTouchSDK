@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EspressifTouchSDK"
-  spec.version      = "1.0.3"
-  spec.summary      = "EspressifTouch SDK v1.0.3, https://github.com/EspressifApps/EspressifTouchSDK"
+  spec.version      = "1.1.0"
+  spec.summary      = "EspressifTouch SDK v1.1.0, https://github.com/EspressifApps/EspressifTouchSDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
